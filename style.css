@@ -1,0 +1,282 @@
+:root {
+    --dourado-letras: #D4AF37;
+    --marrom-fundo: #2B1E16;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--marrom-fundo);
+    margin: 0;
+    background-image: url(img/Gemini_Generated_Image_wq2177wq2177wq21.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position: top center;
+}
+
+.header {
+    gap: 9rem;
+}
+
+.gap {
+    gap: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+.logo {
+    width: 9rem;
+    height: 9rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--marrom-fundo);
+}
+
+.sub_titulo {
+    padding: 3rem;
+}
+
+.quem_somos {
+    background-color: var(--marrom-fundo);
+    margin: 0;
+    padding: 4rem;
+    margin-top: 10rem;
+    color: white;
+    border-radius: 1rem;
+}
+
+.servicos {
+    margin-top: 3rem;
+}
+
+.janelas {
+    background-color: var(--marrom-fundo);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+
+.carrossel {
+    width: 60rem;
+    height: 35rem;
+}
+
+.texto_carrossel {
+    color: var(--marrom-fundo);
+}
+
+h5 {
+    color: var(--marrom-fundo);
+}
+
+.footer1 {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.footer2 {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+
+.footer3 {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.footer4 {
+    width: 2rem;
+    height: 2rem;
+}
+
+.map-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;             /* Preenche a largura */
+    max-width: 1000px;       /* Tamanho máximo desejado */
+    margin: 0 auto;          /* Centraliza o contêiner na página */
+    padding-bottom: 56.25%;  /* Proporção 16:9 (altura/largura) */
+    height: 0;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;             /* Preenche 100% da div pai */
+    height: 100%;            /* Preenche 100% da div pai */
+    border: 0;
+}
+
+@media (max-width : 1259px) {
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 1.5;
+    }
+
+    .gap {
+        gap: 1.7rem;
+    }
+
+    .sub_titulo {
+        padding: 0rem;
+        margin : 3rem;
+    }
+
+    .quem_somos {
+        margin-top: 5rem;
+    }
+
+    .servicos {
+        margin-top: 2rem;
+    }
+
+    
+
+}
+
+@media (max-width : 915px) {
+
+    .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .header {
+        gap: 0rem;
+    }
+
+    .gap {
+        gap: 0rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: .7rem;
+    }
+
+    .sub_titulo {
+        margin : 3rem;
+    }
+
+    .quem_somos {
+        margin-top: 3rem;
+        padding: 3rem;
+    }
+
+    .carrossel {
+        width: 45rem;
+        height: 25rem;
+    }
+
+}
+
+@media (max-width : 732px) {
+
+    body {
+        background-size: 100% 15%;
+    }
+
+    h3 {
+        font-size: .8rem;
+    }
+
+    .logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .quem_somos {
+        margin-top: 2rem;
+        padding: 3rem;
+    }
+
+    .colum {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .janelas {
+        margin: .5rem 0rem;
+    }
+
+}
+
+@media (max-width : 490px) {
+
+    body {
+        background-size: 100% 14%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: .8rem;
+    }
+
+    p {
+        font-size: .7rem;
+    }
+
+}
+
+@media (min-width: 1672px) {
+
+    body {
+        background-size: 100% 23%;
+    }
+
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+}
